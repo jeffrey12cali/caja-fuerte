@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 48 224 64)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB0" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB0" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -57,7 +57,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 96 224 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB3" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB3" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -74,7 +74,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 112 224 128)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB4" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB4" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -91,7 +91,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 128 224 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB5" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB5" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -108,7 +108,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 144 224 160)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB6" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB6" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -125,7 +125,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 160 224 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB7" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB7" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -142,7 +142,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 176 224 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB8" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB8" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -159,7 +159,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 192 224 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB9" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB9" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -176,7 +176,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 64 224 80)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KB1" (rect 5 0 26 12)(font "Arial" ))
+	(text "KB1" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -193,7 +193,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 208 224 224)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "enter" (rect 5 0 30 12)(font "Arial" ))
+	(text "enter" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -324,6 +324,22 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 	(annotation_block (location)(rect 872 224 920 240))
+)
+(pin
+	(output)
+	(rect 712 80 888 96)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "luz" (rect 90 0 102 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
 )
 (symbol
 	(rect 256 48 376 224)
@@ -791,10 +807,6 @@ applicable agreement for further details.
 	(pt 528 200)
 )
 (connector
-	(pt 648 120)
-	(pt 696 120)
-)
-(connector
 	(pt 648 136)
 	(pt 696 136)
 )
@@ -982,8 +994,25 @@ applicable agreement for further details.
 	(pt 408 120)
 	(pt 408 256)
 )
+(connector
+	(pt 712 88)
+	(pt 672 88)
+)
+(connector
+	(pt 672 88)
+	(pt 672 120)
+)
+(connector
+	(pt 648 120)
+	(pt 672 120)
+)
+(connector
+	(pt 672 120)
+	(pt 696 120)
+)
 (junction (pt 480 184))
 (junction (pt 408 120))
 (junction (pt 400 136))
 (junction (pt 392 152))
 (junction (pt 384 168))
+(junction (pt 672 120))

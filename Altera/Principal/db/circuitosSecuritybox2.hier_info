@@ -1,0 +1,100 @@
+|circuitosSecuritybox2
+a <= 7447:inst2.OA
+enter => inst9.IN0
+enter => inst1.IN3
+KB1 => 74147:inst.1N
+KB1 => inst10.IN8
+KB2 => 74147:inst.2N
+KB2 => inst10.IN6
+KB3 => 74147:inst.3N
+KB3 => inst10.IN7
+KB6 => 74147:inst.6N
+KB6 => inst10.IN2
+KB5 => 74147:inst.5N
+KB5 => inst10.IN4
+KB4 => 74147:inst.4N
+KB4 => inst10.IN1
+KB9 => 74147:inst.9N
+KB9 => inst10.IN5
+KB8 => 74147:inst.8N
+KB8 => inst10.IN0
+KB7 => 74147:inst.7N
+KB7 => inst10.IN3
+KB0 => inst1.IN5
+b <= 7447:inst2.OB
+c <= 7447:inst2.OC
+d <= 7447:inst2.OD
+e <= 7447:inst2.OE
+f <= 7447:inst2.OF
+g <= 7447:inst2.OG
+pin_name1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+pin_name5 => inst4.CLK
+pin_name5 => inst7.CLK
+pin_name5 => inst6.CLK
+pin_name5 => inst5.CLK
+reset => inst7.ACLR
+reset => inst6.ACLR
+reset => inst5.ACLR
+reset => inst4.PRESET
+pin_name2 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+pin_name3 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+pin_name4 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuitosSecuritybox2|7447:inst2
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuitosSecuritybox2|7475:inst13
+1Q <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1D => 7.DATAIN
+E12 => 7.LATCH_ENABLE
+E12 => 8.LATCH_ENABLE
+1QN <= 22.DB_MAX_OUTPUT_PORT_TYPE
+2Q <= 8.DB_MAX_OUTPUT_PORT_TYPE
+2D => 8.DATAIN
+2QN <= 21.DB_MAX_OUTPUT_PORT_TYPE
+3Q <= 9.DB_MAX_OUTPUT_PORT_TYPE
+3D => 9.DATAIN
+E34 => 9.LATCH_ENABLE
+E34 => 10.LATCH_ENABLE
+3QN <= 20.DB_MAX_OUTPUT_PORT_TYPE
+4Q <= 10.DB_MAX_OUTPUT_PORT_TYPE
+4D => 10.DATAIN
+4QN <= 19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuitosSecuritybox2|74147:inst
+DN <= 68.DB_MAX_OUTPUT_PORT_TYPE
+8N => 63.IN0
+9N => 65.IN0
+CN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+4N => 57.IN0
+5N => 60.IN0
+6N => 62.IN0
+7N => 114.IN0
+BN <= 8.DB_MAX_OUTPUT_PORT_TYPE
+2N => 55.IN0
+3N => 56.IN0
+AN <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1N => 53.IN0
+
+

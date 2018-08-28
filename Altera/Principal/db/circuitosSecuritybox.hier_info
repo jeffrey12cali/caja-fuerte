@@ -17,6 +17,7 @@ d <= 7447:inst2.OD
 e <= 7447:inst2.OE
 f <= 7447:inst2.OF
 g <= 7447:inst2.OG
+luz <= 7447:inst2.OA
 
 
 |circuitosSecuritybox|7447:inst2
